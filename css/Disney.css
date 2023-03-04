@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    background-color: rgb(7,11,49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.font-Disney {
+    font-family: 'waltograph' ;
+    font-size: 16em;
+    color: whitesmoke;
+}
+/* Disney */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'waltograph';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/waltograph42.otf'); 
+    src: url('../fonts/waltographUI.ttf') format('embedded-opentype'), /* IE6-IE8 */
+        
+  }
