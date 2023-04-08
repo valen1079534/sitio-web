@@ -1,12 +1,90 @@
+.btn-neon{
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #000;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: 40px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.btn-neon:hover{
+    background: #00ffff;
+    box-shadow: 0 0 10px #00ffff, 0 0 40px #00ffff, 0 0 80px #00ffff;
+    transition-delay: 1s;
+}
+.btn-neon:hover span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #00ffff);
+}
+.btn-neon:hover #span1{
+   left: 100%;
+   transition: 1s;
+}
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%; 
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #00ffff);
+}
+.btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #00ffff);
+}
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span4{
+    bottom:-100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #00ffff);
+}
+.btn-neon:hover #span4 {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
 h2 {
+text-align: center;    
 font-size: 100px; /*tamaño de la letra*/
 font-weight: 900; /*grosor de la letra*/
 font-style: italic; /*estilo de letra*/
-font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
+font-family: 
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&display=swap" rel="stylesheet">; /*cambiar tipo de fuente*/
+
 }
 
 h1 {
     font-style: italic;
+    text-align: center;
+    font-size: 3em;
+}
+body{
+    background-color: beige;
 }
