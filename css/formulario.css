@@ -1,34 +1,26 @@
 *{
     font-family: tahoma, sans-serif;
 }
-form{
-    width: 600px;
-    padding: 20px 40px;
-}
 
+.contend-box{
+    border: 1px solid rgb(240, 0, 0);
+    width: 600px;
+    margin-top: 80px;
+}
 .form-tittle{
     height: 80px;
-    color: white;
+    color: #fff;
     background-color: rgb(240, 0, 0);
     margin-top: 0;
     font-size: 1.7em;
-    font-weight: 900;
     text-align: center;
     line-height: 60px;
-
-}
-input [type="text"] {
-    display: block;
-    padding: 7px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    border: 0;
-    border-bottom: 1px solid rgb(64, 64, 64);
+    font-weight: 900;
 }
 
-label{
-    display: block;
-    margin-top: 20px;
+.main-box{
+    display: flex;
+    justify-content: center;
 }
 
 .form-box{
@@ -36,29 +28,36 @@ label{
     justify-content: center;
     margin-top: 20px;
 }
-
-.main-box{
-    display: block;
-    justify-content: center;
-}
-.contend-box{
+form{
     width: 600px;
-    border: 1px solid rgb(240, 0, 0);
-    margin-top: 88px;
+    padding: 20px 40px;
+}
+
+label{
+    display: block;
+    margin-top: 20px;
 }
 select{
     margin-bottom: 20px;
 }
+input[type="text"]{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 1px solid rgb(64, 64, 64);
+}
 input[type="submit"]{
-    margin-top: 20px;
-    width: 480px;
-    margin-left: 20px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    width: 100px;
+    margin-left: 5px;
     margin-right: 20px;
-    background-color: dodgerblue;
+    background-color: rgb(0, 58, 116);
     line-height: 55px;
     color: white;
-    font-size: 1.3em;
-    font-weight: 900;
+    font-size: 1em;
+    font-weight: 400;
     border: none;
     border-radius: 20px;
 }
@@ -66,3 +65,88 @@ input[type="text"]:focus{
     outline: none;
 }
 
+.dia{
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+.btn-neon{
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #000;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.btn-neon:hover {
+    background: #44e9e1;
+    box-shadow: 0 0 10px #44e9e1, 0 0 40px #44e9e1, 0 0 80px #44e9e1;
+    transition-delay: 1s;
+}
+
+.btn-neon:hover span{
+    position: absolute;
+    display: block;
+}
+
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #44e9e1);
+}
+.btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #44e9e1);
+}
+
+.btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+ 
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #44e9e1);
+}
+
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #44e9e1);
+}
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
