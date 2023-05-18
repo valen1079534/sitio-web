@@ -11,3 +11,7 @@
     cursor: pointer;
     background-color: rgb(149, 240, 240);
 }
+h1{
+    background: fixed;
+    font-size: 1 em;
+}

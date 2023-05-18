@@ -1,4 +1,4 @@
-let hamB = document.getElementById("hamB");
+let hamB = document.getElementById("hamBurg");
 
 let maiMenu = document.getElementById("maiMenu");
 
