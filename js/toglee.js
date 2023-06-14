@@ -8,18 +8,18 @@ let con = document.getElementById("con");
 
 container.addEventListener("click", function() {
 
-   if (con.classList.contains("container-off")){
+   if (con.classList.contains("con-off")){
     con.classList.add("con-on");
     con.classList.remove("con-off");
     container.classList.add("container-on");
-    container.classList.remove("container-off")
+    container.classList.remove("container-off");
      }
 
      else {
     con.classList.remove("con-on");
-    container.classList.add("container-off");
-    con.classList.remove("con-on");
-    container.classList.contains("container-off");
+    con.classList.add("con-off");
+    container.classList.remove("container-ff");
+    container.classList.add("container-on");
      }
 });
 
