@@ -18,8 +18,8 @@ container.addEventListener("click", function() {
      else {
     con.classList.remove("con-on");
     con.classList.add("con-off");
-    container.classList.remove("container-ff");
-    container.classList.add("container-on");
+    container.classList.remove("container-on");
+    container.classList.add("container-off");
      }
 });
 
