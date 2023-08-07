@@ -18,18 +18,18 @@ h3{
 
 .btn-neon{
     margin: 20px;
-    position: relative;
-    display:inline-block;
+    flex-direction: row;
+    display: block;
     padding: 15px 30px;
-    color: #fff;
+    color: #000000;
     letter-spacing: 4px;
     font-size: 30px;
     font-weight: 900;
     text-decoration: none;
-    overflow: hidden;
-    transition: 0.2s;
+    background-color: #09fff7;
+    border-radius: 10px;
 }
-.btn-neon:hover{
+/*.btn-neon:hover{
     background: #CD5C5C;
     box-shadow: 0 0 10px #CD5C5C, 0 0 40px #CD5C5C, 0 0 80px #CD5C5C;
     transition-delay: 1s;
@@ -84,22 +84,23 @@ h3{
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
-}
+}*/
 
 .btn-neon2{
     margin: 20px;
     position: relative;
     display: inline-block;
     padding: 15px 30px;
-    color: #fff;
+    color: #000000;
     letter-spacing: 4px;
     font-size: 30px;
     font-weight: 900;
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
+    background-color: #09fff7;
 }
-.btn-neon2:hover{
+/*.btn-neon2:hover{
     background: #00ff00;
     box-shadow: 0 0 10px #00ff00, 0 0 40px #00ff00, 0 0 80px #00ff00;
     transition-delay: 1s;
@@ -155,22 +156,23 @@ h3{
     transition: 1s;
     transition-delay: 0.75s;
 }
-
+*/
 
 .btn-neon3{
     margin: 20px;
     position: relative;
     display: inline-block;
     padding: 15px 30px;
-    color: #fff;
+    color: #000000;
     letter-spacing: 4px;
     font-size: 30px;
     font-weight: 900;
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
+    background-color:  #09fff7;
 }
-.btn-neon3:hover{
+/*.btn-neon3:hover{
     background: #00ffff;
     box-shadow: 0 0 10px #00ffff, 0 0 40px #00ffff, 0 0 80px #00ffff;
     transition-delay: 1s;
@@ -227,21 +229,22 @@ h3{
     transition-delay: 0.75s;
 }
 
-
+*/
 .btn-neon4{
     margin: 20px;
     position: relative;
     display: inline-block;
     padding: 15px 30px;
-    color: #fff;
+    color: #000000;
     letter-spacing: 4px;
     font-size: 30px;
     font-weight: 900;
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
+    background-color: #09fff7;
 }
-.btn-neon4:hover{
+/*.btn-neon4:hover{
     background: #A52A2A;
     box-shadow: 0 0 10px #A52A2A, 0 0 40px #A52A2A, 0 0 80px #A52A2A;
     transition-delay: 1s;
@@ -298,21 +301,22 @@ h3{
     transition-delay: 0.75s;
 }
 
-
+*/
 .btn-neon5{
     margin: 20px;
     position: relative;
     display: inline-block;
     padding: 15px 30px;
-    color: #fff;
+    color: #000000;
     letter-spacing: 4px;
     font-size: 30px;
     font-weight: 900;
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
+    background-color: #09fff7;
 }
-.btn-neon5:hover{
+/*.btn-neon5:hover{
     background: #d2961e;
     box-shadow: 0 0 10px #d2961e, 0 0 40px #d2961e, 0 0 80px #d2961e;
     transition-delay: 1s;
@@ -368,21 +372,22 @@ h3{
     transition: 1s;
     transition-delay: 0.75s;
 }
-
+*/
 .btn-neon6{
     margin: 20px;
     position: relative;
     display: inline-block;
     padding: 15px 30px;
-    color: #fff;
+    color: #000000;
     letter-spacing: 4px;
     font-size: 30px;
     font-weight: 900;
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
+    background-color: #09fff7;
 }
-.btn-neon6:hover{
+/*.btn-neon6:hover{
     background: #00f;
     box-shadow: 0 0 10px #00f, 0 0 40px #00f, 0 0 80px #00f;
     transition-delay: 1s;
@@ -437,7 +442,7 @@ h3{
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
-}
+}*/
 
 
 .btn-neon7{
@@ -445,15 +450,16 @@ h3{
     position: relative;
     display: inline-block;
     padding: 15px 30px;
-    color: #fff;
+    color: #000000;
     letter-spacing: 4px;
     font-size: 30px;
     font-weight: 900;
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
+    background-color: #09fff7;
 }
-.btn-neon7:hover{
+/*.btn-neon7:hover{
     background: #ffd700;
     box-shadow: 0 0 10px #ffd700, 0 0 40px #ffd700, 0 0 80px #ffd700;
     transition-delay: 1s;
@@ -508,7 +514,7 @@ h3{
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
-}
+}*/
 
 
 .btn-neon8{
@@ -516,15 +522,16 @@ h3{
     position: relative;
     display: inline-block;
     padding: 15px 30px;
-    color: #fff;
+    color: #000000;
     letter-spacing: 4px;
     font-size: 30px;
     font-weight: 900;
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
+    background-color: #09fff7;
 }
-.btn-neon8:hover{
+/*.btn-neon8:hover{
     background: #DA70D6;
     box-shadow: 0 0 10px #00FF7F, 0 0 40px #00FF7F, 0 0 80px #00FF7F;
     transition-delay: 1s;
@@ -580,7 +587,7 @@ h3{
     transition: 1s;
     transition-delay: 0.75s;
 }
-
+*/
 
 
 .btn-neon9{
@@ -588,15 +595,16 @@ h3{
     position: relative;
     display: inline-block;
     padding: 15px 30px;
-    color: #fff;
+    color: #000000;
     letter-spacing: 4px;
     font-size: 30px;
     font-weight: 900;
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
+    background-color: #09fff7;
 }
-.btn-neon9:hover{
+/*.btn-neon9:hover{
     background: #FF5733;
     box-shadow: 0 0 10px #FF5733, 0 0 40px #FF5733, 0 0 80px #FF5733;
     transition-delay: 1s;
@@ -651,7 +659,7 @@ h3{
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
-}
+}*/
 
 body{
     display: flex;
@@ -663,17 +671,18 @@ body{
 .btn-neon10{
     margin: 20px;
     position: relative;
-    display: inline-block;
+    flex-direction: row;
     padding: 15px 30px;
-    color: #fff;
+    color: #000000;
     letter-spacing: 4px;
     font-size: 30px;
     font-weight: 900;
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
+    background-color: #09fff7;
 }
-.btn-neon10:hover{
+/*.btn-neon10:hover{
     background: #ffff00;
     box-shadow: 0 0 10px #ffff00, 0 0 40px #ffff00, 0 0 80px #ffff00;
     transition-delay: 1s;
@@ -728,23 +737,24 @@ body{
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
-}
+}*/
 
 .btn-neon11{
     margin: 20px;
     position: relative;
-    display: inline-block;
+    flex-direction: row;
     padding: 15px 30px;
-    color: #fff;
+    color: #000000;
     letter-spacing: 4px;
     font-size: 30px;
     font-weight: 900;
     overflow: hidden;
     text-decoration: none;
     transition: 0.2s;
+    background-color: #09fff7;
 }
 
-.btn-neon11:hover{
+/*.btn-neon11:hover{
     background: #44e9e1;
     box-shadow: 0 0 10px #44e9e1, 0 0 40px #44e9e1, 0 0 80px #44e9e1;
     transition-delay: 1s;
@@ -808,22 +818,23 @@ body{
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
-}
+}*/
 
 .btn-neon12{
     margin: 10px;
     position: relative;
-    display: inline-block;
+    flex-direction: row;
     padding: 15px 30px;
-    color: #fff;
+    color: #000000;
     letter-spacing: 4px;
     font-size: 30px;
     font-weight: 900;
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
+    background-color: #09fff7;
 }
-.btn-neon12:hover{
+/*.btn-neon12:hover{
     background:#ff0055;
     box-shadow: 0 0  10px #ff0055,  0 0 40px #ff0055,  0 0 80px #ff0055;
     transition-delay: 1s;
@@ -878,23 +889,24 @@ body{
     transition: 1s;
     transition-delay: 0.75s;
 }
-
+*/
 
 
 .btn-neon13{
     margin: 10px;
     position: relative;
-    display: inline-block;
+    flex-direction: row;
     padding: 15px 30px;
-    color: #fff;
+    color: #000000;
     letter-spacing: 4px;
     font-size: 30px;
     font-weight: 900;
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
+    background-color: #09fff7;
 }
-.btn-neon13:hover{
+/*.btn-neon13:hover{
     background:#2bff00;
     box-shadow: 0 0  10px #920031,  0 0 40px #0109ff,  0 0 80px #ffd900;
     transition-delay: 1s;
@@ -948,22 +960,23 @@ body{
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
-}
+}*/
 
 .btn-neon14{
     margin: 10px;
     position: relative;
-    display: inline-block;
+    flex-direction: row;
     padding: 15px 30px;
-    color: #fff;
+    color: #000000;
     letter-spacing: 4px;
     font-size: 30px;
     font-weight: 900;
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
+    background-color:  #09fff7;
 }
-.btn-neon14:hover{
+/*.btn-neon14:hover{
     background:#00fbff;
     box-shadow: 0 0  10px #ffa0c0,  0 0 40px #c8caff,  0 0 80px #ffeb79;
     transition-delay: 1s;
@@ -1017,23 +1030,24 @@ body{
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
-}
+}*/
 
 
 .btn-neon15{
     margin: 10px;
     position: relative;
-    display: inline-block;
+    flex-direction: row;
     padding: 15px 30px;
-    color: #fff;
+    color: #000000;
     letter-spacing: 4px;
     font-size: 30px;
     font-weight: 900;
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
+    background-color:  #09fff7;
 }
-.btn-neon15:hover{
+/*.btn-neon15:hover{
     background:#00fbff;
     box-shadow: 0 0  10px #ffa0c0,  0 0 40px #c8caff,  0 0 80px #ffeb79;
     transition-delay: 1s;
@@ -1088,22 +1102,23 @@ body{
     transition: 1s;
     transition-delay: 0.75s;
 }
-
+*/
 
 .btn-neon16{
     margin: 10px;
     position: relative;
-    display: inline-block;
+    flex-direction: row;
     padding: 15px 30px;
-    color: #fff;
+    color: #000000;
     letter-spacing: 4px;
     font-size: 30px;
     font-weight: 900;
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
+    background-color:  #09fff7;
 }
-.btn-neon16:hover{
+/*.btn-neon16:hover{
     background:#99ff00;
     box-shadow: 0 0  10px #79042b,  0 0 40px #00023e,  0 0 80px #ffaa00;
     transition-delay: 1s;
@@ -1157,5 +1172,78 @@ body{
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
+}*/
+
+.btn-neon17{
+    margin: 10px;
+    flex-direction: row;
+    display: block;
+    padding: 15px 30px;
+    color: #000000;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    background-color: #09fff7;
 }
+/*.btn-neon17:hover{
+    background:#99ff00;
+    box-shadow: 0 0  10px #79042b,  0 0 40px #00023e,  0 0 80px #ffaa00;
+    transition-delay: 1s;
+}.btn-neon17:hover span{
+    position: absolute;
+    display: block;
+}
+#span65{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #00fab7)
+}
+.btn-neon17:hover #span65{
+    left: 100%;
+    transition: 1s;
+}
+#span66{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #006eff);
+}
+.btn-neon17:hover #span67{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span68{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #33ff00);
+}
+.btn-neon17:hover #span68{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span69{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #ff164c);
+}
+.btn-neon17:hover #span69{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+} */
+
+
+
 
