@@ -28,7 +28,7 @@ box-sizing: border-box;
 }*/
 
 .box{
-    background: rgb(219, 219, 219);
+    background: rgb(177, 177, 177);
     padding: 10px;
     font-size: 1em;
 }
@@ -51,4 +51,13 @@ box-sizing: border-box;
 h1{
     justify-content: center;
     text-align: center;
+    
+}
+
+hr{
+    border: 0.1px solid brown;
+}
+
+body{
+    background: rgb(248, 248, 248);
 }
