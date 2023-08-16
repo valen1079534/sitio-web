@@ -7,14 +7,15 @@
     width: 100%;
     background-image: url(https://www.civitatis.com/blog/wp-content/uploads/2020/12/que-ver-fiordos-noruegos.jpg);
     background-repeat: no-repeat;
-    width: 10%;
+    width: 100%;
     height: 1260px;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
 }
-@media only screen and (max-width: 780px){
+@media only screen and (max-width: 430px){
     .box-main-img{
-        width: 10%;
-        height: 1260px;
+        background-image: url(https://th.bing.com/th/id/R.fa3403272834664b3565fb73ca77c9d7?rik=UAf2IONKvjFJFw&riu=http%3a%2f%2f101lugaresincreibles.com%2fwp-content%2fuploads%2f2016%2f03%2ffiordo-noruego.jpg&ehk=j%2fo5DmSB%2b8n1qJv%2fV6BwyzoZ4cSC4A1LkC83UKeyf4o%3d&risl=&pid=ImgRaw&r=0);
+        width: 100%;
+        height: 600px;
     }
 }
