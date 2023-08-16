@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box-main-img{
+    width: 100%;
+    background-image: url(https://www.civitatis.com/blog/wp-content/uploads/2020/12/que-ver-fiordos-noruegos.jpg);
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 1260px;
+    background-position: center;
+    background-size: cover;
+}
+@media only screen and (max-width: 780px){
+    .box-main-img{
+        width: 10%;
+        height: 1260px;
+    }
+}
