@@ -8,7 +8,7 @@ body{
     width: 100%;
     grid-template: "empty-left             main-page                 empty-right" 100vh/
                     minmax(30px,1fr)       minmax(700px, 1200px)     minmax(30px,1fr);
-                    background-color: black;
+                    background-color: rgb(255, 255, 255);
                     
 }
 .main-page{
@@ -25,13 +25,24 @@ header{
 
 .logo{
     grid-area: logo;
-    background-image: url(https://1000marcas.net/wp-content/uploads/2020/01/Ford-Emblema.jpg);
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/762/50/535/cars-ford-wallpaper-preview.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .main-menu{
     grid-area: main-menu;
-    background-color: rgb(83, 197, 241);
+}
+nav{
+    justify-content: end;
+    display: inline-block;
+}
+.li{
+    list-style: none;
+    font-size: 1em;
+    line-height: 100px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
 }
 .style-text {
     font-family: verdana, sans-serif;
@@ -138,7 +149,7 @@ header{
     height: 300px;
 }
 .style-text-article{
-    color: rgba(201, 201, 201, 0.9);
+    color: rgba(0, 0, 0, 0.9);
     font-family: verdana, sans-serif;
     line-height: 1.4em;
     display: flex;
