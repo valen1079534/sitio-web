@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    width: 100%;
+    grid-template: "empty-left             main-page                 empty-right" 100vh/
+                    minmax(30px,1fr)       minmax(700px, 1200px)     minmax(30px,1fr);
+                    background-color: rgb(255, 255, 255);
+                    
+}
+.main-page{
+    grid-area: main-page;
+}
+
+header{
+    display: grid;
+    margin-top: 50px;
+    gap: 30px;
+    grid-template: "logo   main-menu" 80px/
+                    150px  minmax(700px, 100%);
+}
+
+.logo{
+    grid-area: logo;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/762/50/535/cars-ford-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-menu{
+    grid-area: main-menu;
+}
+nav{
+    justify-content: end;
+    display: inline-block;
+}
+.li{
+    list-style: none;
+    font-size: 1em;
+    line-height: 100px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.style-text {
+    font-family: verdana, sans-serif;
+    font-size: 1.6em;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    display: grid;
+    margin-top: 15px;
+    grid-template: "main-img     main-img     main-img " 600px
+                    "article-1   article-2    article-3" 
+                    "article-4   article-5    article-6" /
+                    1fr          1fr          1fr;
+    margin-top: 15px;
+    gap: 40px 70px;
+}
+.main-img{
+    grid-area: main-img;
+    background-color: rgb(150, 233, 143);
+    background-image: url(https://i0.wp.com/citymagazine.si/wp-content/uploads/2023/05/2024-Ford-Ranger-Raptor-13.jpg?resize=1400%2C933&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-article-1{
+    width: 100%;
+    background-image: url(https://th.bing.com/th/id/OIP.95p9Li9UJs8HHp3VGTtNDgAAAA?pid=ImgDet&rs=1);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: 100%;
+}
+
+.img-article-2{
+    width: 100%;
+    background-image: url(https://i.pinimg.com/736x/cd/b3/0f/cdb30f77117f6529ed50a1b6b4eb22cf.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: 100%;
+}
+
+.img-article-3{
+    width: 100%;
+    background-image: url(https://m.media-amazon.com/images/I/51OdqXaYRVL._SL500_.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: 100%;
+}
+.img-article-4{
+    width: 100%;
+    background-image: url(https://th.bing.com/th/id/R.1018e67899ecb1238f7ba33baaa3b250?rik=ftRS13ubGmvutw&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f1%2f1b%2fFord_Mustang_-_Flickr_-_exfordy.jpg&ehk=6Tk6NwnBHDk7N0jnnNUnulouupvVFm10O0tyA1wA9X4%3d&risl=1&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: 100%;
+}
+.img-article-5{
+    width: 100%;
+    background-image: url(https://i.ebayimg.com/00/s/NDI3WDY0MA==/z/f2MAAOSwLcZe4Hmk/$_58.JPG);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: 100%;
+}
+.img-article-6{
+    width: 100%;
+    background-image: url(https://th.bing.com/th/id/OIP.G2zE9xfUXNM3kYBJH5W5bgHaE8?pid=ImgDet&rs=1);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: 100%;
+}
+
+.article-1{
+    grid-area: article-1;
+}
+.article-2{
+    grid-area: article-2;
+}
+.article-3{
+    grid-area: article-3;
+}
+.article-4{
+    grid-area: article-4;
+}
+.article-5{
+    grid-area: article-5;
+}
+.article-6{
+    grid-area: article-6;
+}
+.img-article{
+    height: 300px;
+}
+.style-text-article{
+    color: rgba(0, 0, 0, 0.9);
+    font-family: verdana, sans-serif;
+    line-height: 1.4em;
+    display: flex;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 780px){
+    body{
+        grid-template: 
+        "main-page"
+        auto
+        "main-page"
+        auto / 100%;
+    }
+    .main-page{
+        margin: 20px;
+    }
+    header{
+        grid-template: "logo        main-menu"50px/
+                        100px       minmax(50px, 400px);
+        justify-content: center;
+    }
+    .main-content{
+        grid-template: 
+        "main-img"
+        550px
+        "article-1"
+        auto
+        "article-2"
+        auto
+        "article-3"
+        auto
+        "article-4"
+        auto
+        "article-5"
+        auto
+        "article-6"
+        auto / 100%
+    }
+    .img-article{
+        height: 200px;
+    }
+    .main-img{
+        background-image: url(https://i.pinimg.com/736x/b7/50/3c/b7503c74353230a0f6f35d57c44f13b3.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 300px;
+        background-position: center;
+        background-size: 100%;
+    }
+}
