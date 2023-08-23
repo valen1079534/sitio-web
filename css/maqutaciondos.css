@@ -34,13 +34,17 @@ header{
 }
 nav{
     justify-content: end;
-    display: inline-block;
 }
-.li{
+ul{
+    padding: 10px;
+    display:inline-block;
+    width: 100%;
+    justify-content: left;
+    text-align: left;
     list-style: none;
     font-size: 1em;
     line-height: 100px;
-    margin-left: 10px;
+    margin-left: 600px;
     cursor: pointer;
     color: rgb(0, 0, 0);
 }
@@ -193,11 +197,24 @@ nav{
         height: 200px;
     }
     .main-img{
-        background-image: url(https://i.pinimg.com/736x/b7/50/3c/b7503c74353230a0f6f35d57c44f13b3.jpg);
+        background-image: url(https://image.winudf.com/v2/image1/Z29yYXBwLmZvcmRyYXB0b3Iud2FsbHBhcGVyX3NjcmVlbl82XzE2NTcwNzAyNTlfMDg0/screen-6.jpg?fakeurl=1&type=.jpg);
         background-repeat: no-repeat;
         width: 100%;
         height: 300px;
         background-position: center;
-        background-size: 100%;
+        background-size: cover;
+    }
+    .nav{
+        padding: 5px;
+        display:inline-block;
+        width: 10%;
+        justify-content: right;
+        text-align: right;
+        list-style: none;
+        font-size: 1em;
+        line-height: 100px;
+        margin-left: 10px;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
     }
 }
