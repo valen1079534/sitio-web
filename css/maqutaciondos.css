@@ -161,6 +161,17 @@ ul{
 }
 
 @media only screen and (max-width: 780px){
+    ul{
+        padding: 10px;
+        display:inline-block;
+        text-align: left;
+        list-style: none;
+        font-size: 0.5em;
+        margin-left: 20px;
+        line-height: 50px;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+    }
     body{
         grid-template: 
         "main-page"
@@ -200,21 +211,8 @@ ul{
         background-image: url(https://image.winudf.com/v2/image1/Z29yYXBwLmZvcmRyYXB0b3Iud2FsbHBhcGVyX3NjcmVlbl82XzE2NTcwNzAyNTlfMDg0/screen-6.jpg?fakeurl=1&type=.jpg);
         background-repeat: no-repeat;
         width: 100%;
-        height: 300px;
         background-position: center;
         background-size: cover;
     }
-    .nav{
-        padding: 5px;
-        display:inline-block;
-        width: 10%;
-        justify-content: right;
-        text-align: right;
-        list-style: none;
-        font-size: 1em;
-        line-height: 100px;
-        margin-left: 10px;
-        cursor: pointer;
-        color: rgb(0, 0, 0);
-    }
 }
+
