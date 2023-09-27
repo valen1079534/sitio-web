@@ -14,7 +14,7 @@
     flex-wrap: wrap;
     height: calc(100vh);
     position: relative;
-    transition: all 1200ms;
+    transition: all 1500ms;
 }
 .box-slider-1{
     left: 0;
@@ -29,35 +29,26 @@
     left: -300%;
 }
 
-.icons-chevron-left, .icons-chevron-right{
-    color: rgb(0, 0, 0);
-    font-size: 2.5em;
+.box-icon-chevron-left{
     position: relative;
-    top: calc((-100vh) + 500px);
-    z-index: 20;
-    padding:0 50px;
-    cursor: pointer;
+    top: calc((-100vh) + 420px);
+    width: 100px; 
 }
-
-/* .incons-chevron{
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    z-index: 2.5em;
-} 
-
-.icons-chevron-left{
-
-}
-.icons-chevron-right{
-    position: relative;
-    right: -86%;
-}*/
 
 .box-icon-chevron-right{
     display: flex;
     justify-content: flex-end;
-    top: calc((-100vh) + 450px);
+    position: relative;
+    top: calc((-100vh) + 372px);
+}
+
+.icons-chevron-left, .icons-chevron-right{
+    color: rgb(0, 0, 0);
+    font-size: 2.5em;
+    position: relative;
+   /*  top: calc((-100vh) + 500px); */
+    z-index: 100;
+    cursor: pointer;
 }
 
 .img-slider{
@@ -70,11 +61,11 @@
     justify-content: center;
     position: relative;
     top: -50px;
-    z-index: 150;
+    z-index: 200px;
 }
 
 .box-signal{
-    width: 500px;
+    width: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -82,9 +73,29 @@
 }
 
 .signal{
-    width: 120px;
-    height: 20px;
-    background-color: rgb(233, 23, 23);
-    padding: 0 25px;
+    width: 26px;
+    height: 26px;
+    background-color: rgb(158, 158, 158);
     justify-content: space-around;
+    border-radius: 13px;
+}
+.signal-select{
+    background-color: rgb(99, 99, 99);
+}
+
+@media only screen and (max-width: 1500px){
+    .box-icon-chevron-left {
+        top: calc((-100vh) + 220px);
+    }
+    .box-icon-chevron-right{
+        top: calc((-100vh) + 172px);
+    }
+}
+@media only screen and (max-width: 1000px){
+    .box-icon-chevron-left{
+        top: calc((-100vh) + 120px);
+    }
+    .box-icon-chevron-right{
+        top: calc((-100vh) + 72px);
+    }
 }
