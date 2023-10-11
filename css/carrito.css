@@ -9,6 +9,8 @@
     border: 1px solid black;
     border-radius: 10px;
     margin: 10px 0 0 10px;
+    display: row;
+
 }
 
 .box-subtotal{
@@ -32,6 +34,9 @@
     margin:0 20px 20px 20px;
     font-size: 1.4em;
 }
+.signo{
+    
+}
 #numeroProductos{
     font-weight: 500;
     font-size: 1.1em;
@@ -41,8 +46,10 @@
 
 .product-content{
     display: grid;
-    grid-template: "empty-left    box-img-producto   box-info-producto   empty-right"/
-                        20px            3fr                 4fr              20px;
+    width: 100%;
+    grid-template: "empty-left    box-img-producto        box-info-producto     empty-right"
+                    "empty-left   box-button-cantidad     box-info-producto     empty-right"/
+                        20px            1.9fr                 4fr              20px;
 }
 .box-img-producto{
     grid-area: box-img-producto;
@@ -50,25 +57,58 @@
 
 .box-info-producto{
     grid-area: box-info-producto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .box-button-cantidad{
+    grid-area: box-button-cantidad;
     font-size: 1.3em;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin-top: 19px;
+    margin-bottom: 15px;
 }
 
 .box-minus, .box-can, .box-plus{
-    width: 60px;
-    height: 40px;
+    width: 65px;
+    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 1.2px solid black;
 }
-
-p{
-    margin-top: 5px;
+.box-minus{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(206, 206, 206);
+}
+.box-plus{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(206, 206, 206);
+}
+.LBEL{
+    font-size: 1.7em;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+.contenido{
+    font-size: 1.4em;
+    margin-bottom: 2px;
+    font-weight: 500;
+    text-align:justify;
+}
+.cop{
+    font-size: 1.4em;
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+.copPres, .signoPeso{
+    font-size: 1.5em;
+    font-weight: 700;
 }
 
 
