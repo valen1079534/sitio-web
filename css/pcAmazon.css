@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 60px;
+    display: grid;
+    grid-template: "header-logo        header-enviar-a       box-header-search-input       header-contry-flag       header-identificacion       header-devoluciones     header-carrito " 60px/
+                     150px             110px                  1fr                             70px                       160px                     120px                    140px;
+}
+.header-logo{
+    grid-area: header-logo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 70px;
+}
+.header-enviar-a{
+    grid-area: header-enviar-a;
+    display: grid;
+    grid-template: "box-icon-location    box-texto-enviar-a  "
+                    "box-icon-location    box-texto-colombia "/
+                    20px                    70px;
+}
+
+.box-icon-location{
+    height: 60px;
+    grid-area: box-icon-location;
+    color: white;
+    font-size: 1.4em;
+    display: flex;
+    align-items: center;
+}
+.icon-location{
+    font-size: .9em;
+}
+.box-texto-enviar-a{
+    grid-area: box-texto-enviar-a;
+    color: white;
+    position: relative;
+    top: 10px;
+    font-size: .7em;
+    font-weight: 300;
+}
+
+.box-texto-colombia{
+    grid-area: box-texto-colombia;
+    font-size: .9em;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    bottom: 4px;
+}
+
+.box-header-search-input{
+    grid-area: box-header-search-input;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-search-input{
+    height: 40px;
+    width: 100%;
+    display: grid;
+    grid-template: "box-filtro-todos     box-buscar-amazon   box-lupa"/
+                        70px                   1fr              50px;
+}
+.box-filtro-todos{
+    grid-area: box-filtro-todos;
+    background-color: rgb(201, 201, 201);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.filtro-todos{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.header-todos{
+    padding: 2px 4px 3px 10px;
+    font-size: 1em;
+}
+.box-buscar-amazon{
+    grid-area: box-buscar-amazon;
+    background-color: white;
+    width: 100%;
+}
+.input-busqueda{
+    border: none;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 1.1em;
+}
+
+.input-busqueda::placeholder{
+    font-size: .8em;
+    font-weight: 500;
+}
+
+.box-lupa{
+    height: 40px;
+    background-color: rgb(255, 182, 45);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lupa{
+    grid-area: lupa;
+}
+.icon-lupa{
+    font-size: 1.1em;
+}
+
+.header-contry-flag{
+    grid-area: header-contry-flag;
+}
+
+.flag-img{
+    width: 75%;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.header-identificacion{
+    grid-area: header-identificacion;
+}
+
+.header-devoluciones{
+    grid-area: header-devoluciones;
+}
+
+.header-carrito{
+    grid-area: header-carrito;
+}
+.icon-eeuu{
+    font-size: .9;
+    color: antiquewhite;
+    margin-left: 120px;
+    margin-top: -50px;
+}
