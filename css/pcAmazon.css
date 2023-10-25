@@ -7,8 +7,8 @@ header{
     width: 100%;
     height: 60px;
     display: grid;
-    grid-template: "header-logo        header-enviar-a       box-header-search-input       header-contry-flag       header-identificacion       header-devoluciones     header-carrito " 60px/
-                     150px             110px                  1fr                             70px                       160px                     120px                    140px;
+    grid-template: "header-logo        header-enviar-a       box-header-search-input       header-contry-flag       header-identificacion       header-devoluciones         header-carrito " 60px/
+                     150px             110px                  1fr                            100px                       130px                     110px                    120px;
 }
 .header-logo{
     grid-area: header-logo;
@@ -123,9 +123,26 @@ header{
     grid-area: header-contry-flag;
 }
 
+.box-flag{
+    display: flex;
+    justify-content: center;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
 .flag-img{
-    width: 75%;
-    margin-top: 15px;
+    width: 100%;
+}
+.idioma{
+    color: white;
+    font-size: .8;
+    position: relative;
+    top: 5px;
+    margin-left: 5px;
+}
+
+.icon-eeuu{
+    margin-top: 5px;
     margin-left: 50px;
 }
 
@@ -133,16 +150,146 @@ header{
     grid-area: header-identificacion;
 }
 
+.txtId{
+    color: white;
+    font-size: .7em;
+    position: relative;
+    top: 5px;
+    margin-left: 40px;
+}
+
+.txtCuentaList{
+    color: white;
+    font-size: .9em;
+    font-weight: 300;
+    position: relative;
+    top: 5px;
+    margin-left: 40px;
+}
+
 .header-devoluciones{
     grid-area: header-devoluciones;
+}
+
+.txtDevolucion{
+    color: white;
+    font-size: .7em;
+    position: relative;
+    top: 5px;
+    margin-left: 40px;
+}
+
+.pedido{
+    color: white;
+    font-size: .9em;
+    font-weight: 300;
+    position: relative;
+    top: 5px;
+    margin-left: 40px;
 }
 
 .header-carrito{
     grid-area: header-carrito;
 }
-.icon-eeuu{
-    font-size: 1em;
-    color: antiquewhite;
-    margin-left: 120px;
+.box-carrito{
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+.icon-carrito{
+    color: #ffffff;
+    font-size: 2em;
+    position: relative;
+    top: 3px;
+}
+
+.txt-carrito{
+    color: white;
+    font-size: .9em;
+    font-weight: 600;
+    position: relative;
+    display: flex;
     margin-top: 15px;
+}
+.mainContent{
+    height: 100vh;
+    position: static;
+    z-index: 10;
+}
+/* imagenes-contenedor */
+.box-modal{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.253);
+    z-index: 10;
+}
+.modal{
+    width: 95%;
+    height: 80%;
+    z-index: 20;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.contenedor-principal{
+    width: 90%;
+    display: grid;
+    grid-template: "boxImagenPrincipal    box-todo"/
+                    1fr              1fr;
+}
+
+.boxImagenUno{
+    grid-area: boxImagenPrincipal;
+}
+.imagenPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 600px;
+}
+.img-main{
+    width: 320%;
+}
+.box-todo{
+    grid-area: box-todo;
+}
+.info-producto{
+    display: flex;
+}
+.txtProduct{
+    text-align: justify;
+    margin-top: 40px;
+    width: 35%;
+    height: 30%;
+    margin-left: 580px;
+    align-items: flex-end;
+    font-size: 1.2em;
+}
+
+.imagenes{
+    margin-left: 580px;
+    padding: 6px 6px 9px 6px;
+}
+
+.img-reducidas{
+    width: 50px;
+    border: solid 1px grey;
+}
+
+.box-iconExmark{
+    border-radius: 1px solid rgb(0, 217, 255);
+    z-index: 20;
+}
+
+.iconExmark{
+    width: 40px;
+    margin-left: 95%;
+    margin-top: 30px;
 }
