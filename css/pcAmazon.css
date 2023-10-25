@@ -141,8 +141,8 @@ header{
     grid-area: header-carrito;
 }
 .icon-eeuu{
-    font-size: .9;
+    font-size: 1em;
     color: antiquewhite;
     margin-left: 120px;
-    margin-top: -50px;
+    margin-top: 15px;
 }
