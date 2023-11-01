@@ -176,10 +176,10 @@ header{
 }
 
 .icon-id{
-    margin-top: 1%;
+    margin-top: -1%;
     color: white;
     font-size: .7em;
-    margin-left: 139px;
+    margin-left: 130px;
 }
 .header-devoluciones{
     grid-area: header-devoluciones;
@@ -284,11 +284,11 @@ header{
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    margin-left: 600px;
+    margin-left: 620px;
     cursor: pointer;
 }
 .img-main{
-    width: 270%;
+    width: 220%;
 }
 .box-todo{
     grid-area: box-todo;
@@ -299,39 +299,47 @@ header{
 .txtProduct{
     text-align: justify;
     margin-top: 40px;
-    width: 35%;
-    height: 30%;
+    width: 60%;
+    height: 40%;
     margin-left: 580px;
     align-items: flex-end;
     font-size: 1.2em;
 }
+
 
 .imagenes{
     margin-left: 580px;
     padding: 6px 6px 9px 6px;
 }
 
-.img-reducidas{
-    width: 60px;
-    border: solid 1px grey;
+.imgReducidas{
+    width: 50px;
+    margin-top: 5px;
+    border: solid 1.5px rgb(0, 0, 0);
     cursor: pointer;
+}
+
+.imgReducidas:hover{
+    box-shadow: 0 0 10px rgb(30, 213, 245); 
 }
 
 .box-iconExmark{
     width: 25px;
-    height: 26px;
+    height: 29px;
     margin-left: 95%;
-    margin-top: 25px;
+    margin-top: 30px;
     border: solid 1px rgb(0, 217, 255);
-    border-radius: 5px;
-    box-shadow: 0 0 20 rgb(0, 217, 255), 0 0 40 rgb(0, 217, 255), 0 0 60 rgb(0, 217, 255);
+    border-radius: 5px;;
     z-index: 20;
     cursor: pointer;
     font-size: 1.9em;
 }
 
-.iconExmark{
-    box-shadow: 0 0 20 rgb(0, 217, 255), 0 0 40 rgb(0, 217, 255), 0 0 80 rgb(0, 217, 255);
-    transition-delay: 1s;
+.box-iconExmark:hover{
+    box-shadow: 0 0 5px rgb(199, 247, 255), 0 0 20px rgb(199, 247, 255), 0 0 40px rgb(199, 247, 255);
 }
 
+#x{
+    color: grey;
+
+}
