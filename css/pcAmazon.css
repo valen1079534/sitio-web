@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 header{
     background-color: rgb(0, 0, 0);
@@ -10,6 +11,10 @@ header{
     grid-template: "header-logo        header-enviar-a       box-header-search-input       header-contry-flag       header-identificacion       header-devoluciones         header-carrito " 60px/
                      150px             110px                  1fr                            100px                       130px                     110px                    120px;
 }
+header{
+    padding: 16px;
+}
+
 .header-logo{
     grid-area: header-logo;
     display: flex;
@@ -17,6 +22,7 @@ header{
     align-items: center;
     width: 130px;
     height: 70px;
+    cursor: pointer;
 }
 .header-enviar-a{
     grid-area: header-enviar-a;
@@ -35,14 +41,14 @@ header{
     align-items: center;
 }
 .icon-location{
-    font-size: .9em;
+    font-size: .8em;
 }
 .box-texto-enviar-a{
     grid-area: box-texto-enviar-a;
     color: white;
     position: relative;
     top: 10px;
-    font-size: .7em;
+    font-size: .8em;
     font-weight: 300;
 }
 
@@ -135,15 +141,16 @@ header{
 }
 .idioma{
     color: white;
-    font-size: .8;
+    font-size: .9;
     position: relative;
     top: 5px;
     margin-left: 5px;
 }
 
 .icon-eeuu{
-    margin-top: 5px;
-    margin-left: 50px;
+    margin-top: 10px;
+    color: white;
+    font-size: .8em;
 }
 
 .header-identificacion{
@@ -160,13 +167,19 @@ header{
 
 .txtCuentaList{
     color: white;
-    font-size: .9em;
+    font-size: .8em;
     font-weight: 300;
     position: relative;
     top: 5px;
     margin-left: 40px;
 }
 
+.icon-id{
+    margin-top: 5px;
+    color: white;
+    font-size: .7em;
+    margin-left: 139px;
+}
 .header-devoluciones{
     grid-area: header-devoluciones;
 }
@@ -211,11 +224,28 @@ header{
     display: flex;
     margin-top: 15px;
 }
+
+.Barra-header{
+    padding: 16px;
+    background-color: rgb(35, 47, 62);
+    color: white;
+    font-size: 1em;
+    width: 100%;
+}
+
+.espaci{
+    margin-left: 20px;
+}
+
+
 .mainContent{
     height: 100vh;
     position: static;
     z-index: 10;
 }
+
+
+
 /* imagenes-contenedor */
 .box-modal{
     top: 0;
@@ -231,7 +261,7 @@ header{
 }
 .modal{
     width: 95%;
-    height: 80%;
+    height: 70%;
     z-index: 20;
     background-color: white;
     border-radius: 15px;
@@ -253,9 +283,10 @@ header{
     align-items: center;
     margin-top: 10px;
     margin-left: 600px;
+    cursor: pointer;
 }
 .img-main{
-    width: 320%;
+    width: 210%;
 }
 .box-todo{
     grid-area: box-todo;
@@ -279,17 +310,23 @@ header{
 }
 
 .img-reducidas{
-    width: 50px;
+    width: 60px;
     border: solid 1px grey;
+    cursor: pointer;
 }
 
 .box-iconExmark{
-    border-radius: 1px solid rgb(0, 217, 255);
+    width: 20px;
+    height: 20px;
+    margin-left: 95%;
+    margin-top: 25px;
+    border: solid 1px rgb(0, 217, 255);
+    box-shadow: 20px;
     z-index: 20;
+    cursor: pointer;
 }
 
 .iconExmark{
-    width: 40px;
-    margin-left: 95%;
-    margin-top: 30px;
+
 }
+
