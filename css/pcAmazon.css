@@ -452,6 +452,9 @@ header{
 .pagImgPrincipal{
     display: flex;
 }
+h1{
+    font-size: 780em;
+}
 
 
 
