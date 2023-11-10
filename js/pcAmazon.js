@@ -48,5 +48,8 @@ imagen5.addEventListener("click", function(){
 }) 
   
 
- 
+imagen5.addEventListener("click", function(){
+    imagen.src = ' '
+    imagen.src = imagen5.src
+}) 
  
