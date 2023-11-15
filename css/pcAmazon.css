@@ -8,7 +8,7 @@ header{
     width: 98.6%;
     height: 45.5px;
     display: grid;
-    grid-template: "header-logo        header-enviar-a       box-header-search-input       header-contry-flag       header-identificacion       header-devoluciones         header-carrito " 60px/
+    grid-template: "header-logo        header-enviar-a       box-header-search-input       header-contry-flag       header-identificacion       header-devoluciones         header-carrito " 50px/
                      150px             105px                 1fr                           105px                       140px                     110px                    120px;               
 }
 header{
@@ -325,19 +325,42 @@ header{
 
 .box-iconExmark{
     width: 25px;
-    height: 29px;
+    height: 25px;
     margin-left: 95%;
-    margin-top: 30px;
+    margin-top: 10px;
     border: solid 1px rgb(0, 217, 255);
-    border-radius: 5px;;
+    border-radius: 5px;
     z-index: 20;
     cursor: pointer;
-    font-size: 1.9em;
+    font-size: 1.5em;
+    background-color: white;
 }
 
 .box-iconExmark:hover{
     box-shadow: 0 0 5px rgb(199, 247, 255), 0 0 20px rgb(199, 247, 255), 0 0 40px rgb(199, 247, 255);
 }
+
+.video{
+    margin-left: 30px;
+    font-size: 1em;
+    position: static;
+    cursor: pointer;
+}
+.imagen{
+    margin-left: 30px;
+    font-size: 1em;
+    position: static;
+    cursor: pointer;
+}
+.video:hover{
+    border-bottom: 10px solid rgb(255, 174, 0);
+    border-radius: 4px;
+}
+.imagen:hover{
+    border-bottom: 10px solid rgb(255, 174, 0);
+    border-radius: 4px;
+}
+
 
 .x{
     color: grey;
@@ -350,6 +373,8 @@ header{
 /* .pagImgPrincipal{
     width: 400px;
 } */
+
+/*Anuncio*/
 
 .pag-principal{
     height: 50px;
@@ -426,13 +451,38 @@ header{
     font-weight: 850;
 }
 
+
+/*Contenido principal*/
+.resultados{
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 1.3em;
+    color: #808080;
+    cursor: pointer; 
+}
+.resultados:hover{
+    box-shadow: 0  1px rgb(119, 119, 119);
+    width: 250px;
+} 
+.resultados1{
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: .7em;
+    color: #808080;
+    cursor: pointer; 
+}
+.resultados1:hover{
+    box-shadow: 0  1px rgb(119, 119, 119);
+    width: 10px;
+} 
+
 .mainContent{
     width: 100%;
     height: 99px;
     margin-right: 100%;
     display: grid;
-    grid-template: "imagenesReducidasPagPrincipal       imgPrincipalPag"/100
-                        1px                                20px;
+    grid-template: "imagenesReducidasPagPrincipal       imgPrincipalPag     iconReloj  textReloj    devoRelo"/
+                        230px                                200px             350px       800px          300px;
 }
 
 .imagenesReducidasPagPrincipal{
@@ -441,28 +491,193 @@ header{
 .imgPrinReducidas{
     display: flex;
     flex-direction: column;
+    padding: 100px;
+    margin-top: 5px;
 }
 .imgReducidasPrincipal{
-    width: 40px;
+    width: 60px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 18px;
 }
-
+.imgReducidasPrincipal:hover{
+    box-shadow: 0 0 5px rgb(255, 251, 10), 0 0 20px rgb(255, 251, 10), 0 0 40px rgb(255, 251, 10);
+    cursor: pointer;
+}
 .imgPrincipalPag{
     grid-area: imgPrincipalPag;
+    cursor: pointer;
 }
 .pagImgPrincipal{
+    margin-top: 60px;
     display: flex;
+    cursor: pointer;
 }
-h1{
-    font-size: 780em;
+.iconReloj{
+    grid-area: iconReloj;
+    cursor: pointer;
 }
-h2{
-    font-size: 7em;
-    font-weight: 900;
+.dounload{
+    margin-left: 270px;
+    margin-top: 75px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.visitas{
+    color: rgb(20, 120, 300);
+    font-size: 0.5em;
+    margin-top: 10px;
+}
+.textReloj{
+    grid-area: textReloj;
+    margin-top: 60px;
+    font-size: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #525252;
+}
+.numero41{
+    font-size: .6em;
+}
+.numero41-1{
+    color: rgb(255, 153, 0);
+    font-size: .6em;
+}
+.numero41-2{
+    color: rgb(63, 63, 63);
+    font-size: .6em;
+    margin-left: 20px;
+}
+.calificacion{
+    color: rgb(0, 110, 255);
+    font-size: .6em;
+    margin-left: 30px;
+}
+.calificacion-1{
+    color: rgb(0, 110, 255);
+    font-size: .6em;
+    margin-right: 100px;
+}
+.Compras{
+    color: #bbbbbb;
+    font-size: .5em;
+}
+.TextRelojOlevs{
+    margin-top: 60px;
 }
 
 
+.devoRelo{
+    grid-area: devoRelo;
+}
+.diseñoReloj{
+    margin-top: 60px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 10px;
+    padding: 30px;
+}
 
-
+.us{
+    font-size: 1em;
+    color: #000;
+    margin-top: 2px;
+}
+.numero38{
+    font-size: 2.5em;
+    color: #000;
+    margin-top: 2px;
+}
+.numero66{
+    font-size: 1em;
+    color: #000;
+    margin-top: 2px;
+}
+.sinDeposito{
+    font-size: 1em;
+}
+.entregaGratis{
+    font-size: 1em;
+}
+.EntregaRapida{
+    font-size: 1em;
+}
+.ebvioGratis{
+    font-size: 1em;
+    font-weight: 800;
+}
+.devolucionGratis{
+    font-size: 1em;
+    color: rgb(0, 110, 255);
+    font-size: 1em;
+}
+.devolucionGratis1{
+    color: rgb(63, 63, 63);
+    font-size: .9em;
+}
+.detallesReloj{
+    font-size: 1em;
+    color: rgb(0, 110, 255);
+}
+.detallesReloj1{
+    color: rgb(63, 63, 63);
+    font-size: .9em;
+}
+.miercoles{
+    font-size: 1em;
+    font-weight: 800;
+}
+.horaReloj{
+    font-size: 1em;
+    color: rgb(0, 165, 0);
+}
+.EnviarColombia{
+    font-size: 1em;
+    color: rgb(0, 110, 255);
+    padding: 5px;
+}
+.martes{
+    font-size: 1em;
+    font-weight: 800;
+}
+.EnviarColombia1{
+    color: #525252;
+}
+.Disponible{
+    font-size: 1em;
+    color: rgb(0, 165, 0);
+    font-size: 1em;
+}
+.caja1{
+    font-size: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #eeeeee;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.caja1-1{
+    font-size: 1em;
+    color: black;
+    font-size: .9em;
+    font-weight: 600;
+    cursor: pointer;
+}
+.caja2{
+    font-size: 1em;
+    background-color: rgb(255, 196, 0);
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.caja3{
+    font-size: 1em;
+    background-color: rgb(255, 123, 0);
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
 
 
 
