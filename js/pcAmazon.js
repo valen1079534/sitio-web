@@ -69,12 +69,15 @@ function cerrarse(){
 }
 
 
-function abrir(){
-     /* document.getElementById("mainContent") */
-    
-alert("oeeeee")
+/* function abrir(){
+    document.getElementById("mainContent")
+    modal.classList.visible
+} */
 
-}
+
+/* function abrir(){
+     /* document.getElementById("mainContent") *oeeeee")
+
 
 /* imagen11.addEventListener("click", function(){
     imagenPrincipal.src = ' '

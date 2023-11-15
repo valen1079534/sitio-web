@@ -250,7 +250,7 @@ header{
 
 
 /* imagenes-contenedor */
-.box-modal{
+.box-modal.visible{
     top: 0;
     left: 0;
     position: fixed;
@@ -456,7 +456,7 @@ header{
 .resultados{
     margin-left: 40px;
     margin-top: 25px;
-    font-size: 1.3em;
+    font-size: 1em;
     color: #808080;
     cursor: pointer; 
 }
@@ -482,7 +482,7 @@ header{
     margin-right: 100%;
     display: grid;
     grid-template: "imagenesReducidasPagPrincipal       imgPrincipalPag     iconReloj  textReloj    devoRelo"/
-                        230px                                200px             350px       800px          300px;
+                        200px                                440px             100px       660px          300px;
 }
 
 .imagenesReducidasPagPrincipal{
@@ -507,6 +507,7 @@ header{
 .imgPrincipalPag{
     grid-area: imgPrincipalPag;
     cursor: pointer;
+    width: 100%;
 }
 .pagImgPrincipal{
     margin-top: 60px;
@@ -518,7 +519,7 @@ header{
     cursor: pointer;
 }
 .dounload{
-    margin-left: 270px;
+    margin-left: 40px;
     margin-top: 75px;
     font-size: 2em;
     cursor: pointer;
@@ -526,13 +527,13 @@ header{
 
 .visitas{
     color: rgb(20, 120, 300);
-    font-size: 0.5em;
+    font-size: 0.7em;
     margin-top: 10px;
 }
 .textReloj{
     grid-area: textReloj;
     margin-top: 60px;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-left: 20px;
     margin-right: 20px;
     color: #525252;
@@ -679,6 +680,9 @@ header{
     cursor: pointer;
 }
 
+.Hola{
+    font-size: 1em;
+}
 
 
 
