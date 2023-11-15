@@ -250,7 +250,11 @@ header{
 
 
 /* imagenes-contenedor */
-.box-modal.visible{
+main{
+    display: none;
+}
+
+main.visible{
     top: 0;
     left: 0;
     position: fixed;
@@ -315,20 +319,24 @@ header{
 .imgReducidas{
     width: 50px;
     margin-top: 5px;
-    border: solid 1.5px rgb(0, 0, 0);
+    border: solid 2.5px rgb(180, 180, 180);
     cursor: pointer;
 }
-
-.imgReducidas:hover{
-    box-shadow: 0 0 10px rgb(30, 213, 245); 
+.active{
+    width: 50px;
+    margin-top: 5px;
+    border: solid 2.5px rgb(207, 55, 0);
+    cursor: pointer;
 }
-
-.box-iconExmark{
+.imgReducidas:hover{
+    border: solid 2.5px rgb(0, 0, 66);
+} 
+.close{
     width: 25px;
     height: 25px;
     margin-left: 95%;
     margin-top: 10px;
-    border: solid 1px rgb(0, 217, 255);
+    border: solid 1px rgb(0, 255, 255);
     border-radius: 5px;
     z-index: 20;
     cursor: pointer;
@@ -336,7 +344,7 @@ header{
     background-color: white;
 }
 
-.box-iconExmark:hover{
+.close:hover{
     box-shadow: 0 0 5px rgb(199, 247, 255), 0 0 20px rgb(199, 247, 255), 0 0 40px rgb(199, 247, 255);
 }
 
@@ -497,11 +505,18 @@ header{
 .imgReducidasPrincipal{
     width: 60px;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(153, 153, 153);
     margin-top: 18px;
 }
+
+.activation{
+    width: 60px;
+    border-radius: 10px;
+    margin-top: 18px;
+}
+
 .imgReducidasPrincipal:hover{
-    box-shadow: 0 0 5px rgb(255, 251, 10), 0 0 20px rgb(255, 251, 10), 0 0 40px rgb(255, 251, 10);
+    box-shadow: 0 0 10px rgb(30, 213, 245); 
     cursor: pointer;
 }
 .imgPrincipalPag{
@@ -670,6 +685,8 @@ header{
     padding: 10px;
     border-radius: 20px;
     cursor: pointer;
+    width: 200px;
+    height: 30px;
     
 }
 .caja3{
@@ -678,12 +695,22 @@ header{
     padding: 10px;
     border-radius: 20px;
     cursor: pointer;
+    width: 200px;
+    height: 30px;
 }
 
 .Hola{
     font-size: 1em;
 }
 
+.estrellas{
+    color: aquamarine;
+
+}
+.estrella{
+    display: flex;
+    flex-direction: row;
+}
 
 
 

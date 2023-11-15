@@ -131,17 +131,23 @@
 
         <div id="mainContent" class="mainContent">    
                     <div class="imagenesReducidasPagPrincipal">
-                        <div class="imgPrinReducidas">
-                            <img id= "imagen11" class="imgReducidasPrincipal" src="https://m.media-amazon.com/images/I/61orwIKCW2L._AC_SY535_.jpg" alt="">
-                            <img id= "imagen22" class="imgReducidasPrincipal"  src="https://m.media-amazon.com/images/I/61YiMdxbvjL._AC_SY535_.jpg" alt="">
-                            <img id= "imagen33" class="imgReducidasPrincipal"  src="https://m.media-amazon.com/images/I/61UuwHvTwoL._AC_SY535_.jpg" alt="">
-                            <img id= "imagen44" class="imgReducidasPrincipal"  src="https://m.media-amazon.com/images/I/61d43gHHsvL._AC_SY535_.jpg" alt="">
-                            <img id= "imagen55" class="imgReducidasPrincipal" src="https://m.media-amazon.com/images/I/61J6i5D0g0L._AC_SY535_.jpg" alt="">            
+                        <div class="imgPrinReducidas" id="imgPrincipal">
+
+                            <img id= "principal1" class="imgReducidasPrincipal activation"  src="https://m.media-amazon.com/images/I/61orwIKCW2L._AC_SY535_.jpg" alt="">
+
+                            <img id= "principal2" class="imgReducidasPrincipal"  src="https://m.media-amazon.com/images/I/61YiMdxbvjL._AC_SY535_.jpg" alt="">
+
+                            <img id= "principal3" class="imgReducidasPrincipal"  src="https://m.media-amazon.com/images/I/61UuwHvTwoL._AC_SY535_.jpg" alt="">
+
+                            <img id= "principal4" class="imgReducidasPrincipal"  src="https://m.media-amazon.com/images/I/61d43gHHsvL._AC_SY535_.jpg" alt="">
+
+                            <img id= "principal5" class="imgReducidasPrincipal"  src="https://m.media-amazon.com/images/I/61J6i5D0g0L._AC_SY535_.jpg" alt="">  
+
                         </div>   
                     </div>
 
-                        <div class="imgPrincipalPag" id="imagenPrincipal">
-                            <img  class="pagImgPrincipal" id="pagImgPrincipal"  onclick="abrir()" src="https://m.media-amazon.com/images/I/61orwIKCW2L._AC_SY535_.jpg" alt="">
+                        <div class="imgPrincipalPag" >
+                            <img id="imagePrincipal" class="pagImgPrincipal" onclick="abrir()" src="https://m.media-amazon.com/images/I/61orwIKCW2L._AC_SY535_.jpg" alt="">
                         </div>
 
                         <div class="iconReloj">
@@ -200,22 +206,17 @@
                     </div>
 
             
-
-               <div class="box-modal" id="modal">
+                <main id="box-modal">
                     <div class="modal">
 
-                        <form>
-                            <input class="box-iconExmark" type="button" value="X" onclick="cerrarse()">
-                        </form>
-
-                     <!--<div class="box-iconExmark"  id="iconExmark">
-                            <i class="iconExmark fa-solid fa-xmark"></i>
-                        </div> -->
+                     <div id="close" class="close" onclick="cerrar()" >
+                        <i id="close" class="fa-solid fa-xmark"></i>
+                    </div>
 
                             <label class="video">Video</label>
                             <label class="imagen">Imagen</label>
                             
-                            <hr class="x" id="x">
+                            <hr class="x">
 
                         <div class="contenedor-principal">
                             <div class="boxImagenPrincipal">
@@ -236,7 +237,7 @@
 
                                         <div class="imagenes" id= "imagen">
 
-                                            <img id= "imagen1" class="imgReducidas" src="https://m.media-amazon.com/images/I/61orwIKCW2L._AC_SY535_.jpg" alt="">
+                                            <img id= "imagen1" class="imgReducidas active" src="https://m.media-amazon.com/images/I/61orwIKCW2L._AC_SY535_.jpg" alt="">
                                 
                                             <img id= "imagen2" class="imgReducidas"  src="https://m.media-amazon.com/images/I/61YiMdxbvjL._AC_SY535_.jpg" alt="">
                                     
@@ -250,14 +251,29 @@
                             </div>
                         </div>
                     </div>
-                </div> 
-
-
-
-
-
+            </main>
         </div> 
      
+
+        <input id="puntuacion" type="text">
+        <div><button id="buttonMarcar">ujwhw</button></div>
+        <div class="box-extrellas">
+            <div class="estrella">
+                <i id="star1"></i>
+            </div>
+            <div class="estrella">
+                <i id="star2"></i>
+            </div>
+            <div class="estrella">
+                <i id="start3"></i>
+            </div>
+            <div class="estrella">
+                <i id="star4"></i>
+            </div>
+            <div class="estrella">
+                <i id="star5"></i>
+            </div>
+        </div>
     
     <script src="js/pcAmazon.js"></script>
 </body>
