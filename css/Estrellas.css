@@ -1,0 +1,25 @@
+.cajas{
+    width: 190px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    background-color: rgb(214, 214, 214);
+}
+.cajas > div{
+    background-color: rgb(255, 136, 0);
+    height: 30px;
+    transition: 1s all linear;
+    width: 0;
+    border-radius: 10px;
+}
+.caja-box{
+    display: flex;
+    flex-direction: column;
+}
+.estrella{
+    margin-bottom: 5px;
+    flex-direction: column;
+    display: block;
+}
+

@@ -378,12 +378,6 @@ main.visible{
 
 /*IMAGEN PRINCIPAL DEL RELOJ*/
 
-/* .pagImgPrincipal{
-    width: 400px;
-} */
-
-/*Anuncio*/
-
 .pag-principal{
     height: 50px;
     width: 100%;
@@ -545,6 +539,11 @@ main.visible{
     font-size: 0.7em;
     margin-top: 10px;
 }
+.visitas:hover{
+    color: rgb(255, 94, 0);
+    box-shadow: 0 1px rgb(255, 94, 0);
+    cursor: pointer;
+}
 .textReloj{
     grid-area: textReloj;
     margin-top: 60px;
@@ -555,34 +554,54 @@ main.visible{
 }
 .numero41{
     font-size: .6em;
+    color: #000;
+    cursor: pointer;
 }
-.numero41-1{
-    color: rgb(255, 153, 0);
+.estrella{
+    color: rgb(255, 81, 0);
+    flex-direction: row;
+    display: inline-block;
     font-size: .6em;
+    cursor: pointer;
 }
-.numero41-2{
-    color: rgb(63, 63, 63);
+.q{
+    color: rgb(0, 110, 255);
     font-size: .6em;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px
 }
 .calificacion{
     color: rgb(0, 110, 255);
     font-size: .6em;
-    margin-left: 30px;
+}
+.calificacion:hover{
+    color: rgb(255, 94, 0);
+    box-shadow: 0 1px rgb(255, 94, 0);
+    cursor: pointer;
 }
 .calificacion-1{
     color: rgb(0, 110, 255);
     font-size: .6em;
-    margin-right: 100px;
+    cursor: pointer;
+}
+.calificacion-1:hover{
+    color: rgb(255, 94, 0);
+    box-shadow: 0 1px rgb(255, 94, 0);
+}
+.strella{
+    font-size: .4em;
+    color: #979797;
+    margin-left: 5px;
+    cursor: pointer;
 }
 .Compras{
-    color: #bbbbbb;
+    color: #7a7a7a;
     font-size: .5em;
 }
 .TextRelojOlevs{
     margin-top: 60px;
+    margin-bottom: 2px;
 }
-
 
 .devoRelo{
     grid-area: devoRelo;
@@ -593,7 +612,6 @@ main.visible{
     border-radius: 10px;
     padding: 30px;
 }
-
 .us{
     font-size: 1em;
     color: #000;
@@ -625,6 +643,11 @@ main.visible{
     color: rgb(0, 110, 255);
     font-size: 1em;
 }
+.devolucionGratis:hover{
+    color: rgb(255, 94, 0);
+    box-shadow: 0 1px rgb(255, 94, 0);
+    cursor: pointer;
+}
 .devolucionGratis1{
     color: rgb(63, 63, 63);
     font-size: .9em;
@@ -632,6 +655,11 @@ main.visible{
 .detallesReloj{
     font-size: 1em;
     color: rgb(0, 110, 255);
+}
+.detallesReloj:hover{
+    color: rgb(255, 94, 0);
+    box-shadow: 0 1px rgb(255, 94, 0);
+    cursor: pointer;
 }
 .detallesReloj1{
     color: rgb(63, 63, 63);
@@ -649,7 +677,9 @@ main.visible{
     font-size: 1em;
     color: rgb(0, 110, 255);
     padding: 5px;
+    padding: 10px;
 }
+
 .martes{
     font-size: 1em;
     font-weight: 800;
@@ -697,25 +727,7 @@ main.visible{
     height: 30px;
 }
 
-.Hola{
-    font-size: 1em;
-}
 
-.estrellas{
-    color: aquamarine;
-
-}
-.estrella{
-    display: flex;
-    flex-direction: row;
-}
-
-.estrella{
-    color: rgb(255, 81, 0);
-    flex-direction: row;
-    display: inline-block;
-    font-size: .7em;
-}
 
 
 
