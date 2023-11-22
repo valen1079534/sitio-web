@@ -121,11 +121,12 @@ function abrir(){
 
 
 //start
+//Para elaborar estrellas de porcentajes 
 
 buttonMarcar.addEventListener("click", () => {
 
     let puntuacion = document.getElementById("puntuacion").value 
-    
+
     if (puntuacion >= 0 && puntuacion <=0.2){
         star1.setAttribute("class", "fa-regular fa-star")
         star2.setAttribute("class", "fa-regular fa-star")

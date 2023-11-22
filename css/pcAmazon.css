@@ -710,11 +710,8 @@ main.visible{
     flex-direction: row;
 }
 
-.box-extrellas{
-    flex-direction: row;
-}
 .estrella{
-    color: rgb(255, 136, 0);
+    color: rgb(255, 81, 0);
     flex-direction: row;
     display: inline-block;
     font-size: .7em;
