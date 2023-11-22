@@ -12,6 +12,13 @@ let principal2 = document.getElementById("principal2")
 let principal3 = document.getElementById("principal3")
 let principal4 = document.getElementById("principal4")
 let principal5 = document.getElementById("principal5")
+let star1 = document.getElementById("star1")
+let star2 = document.getElementById("star2")
+let star3 = document.getElementById("star3")
+let star4 = document.getElementById("star4")
+let star5 = document.getElementById("star5")
+
+let buttonMarcar = document.getElementById("buttonMarcar")
 
 
 function setActive(principal){
@@ -22,6 +29,7 @@ function setActive(principal){
     principal.classList.add('activation')
 }
 
+//cambio de imagen solo con pasar el cursor 
 
 principal1.addEventListener("mouseover", function(){
     imgPrincipal.src = ' '
@@ -66,7 +74,8 @@ function setActive(img){
     img.classList.add('active')
 }
 
-//cambio de imagen
+//cambio de imagen dando click
+
 imagen1.addEventListener("click", function(){
     imagen.src = ' '
     imagen.src = imagen1.src
@@ -101,7 +110,7 @@ imagen5.addEventListener("click", function(){
 }) 
 
 
-
+//abrir y cerrar pantalla o vista 
 function cerrar() {
     modal.classList.remove("visible")
 }
@@ -110,6 +119,102 @@ function abrir(){
     modal.classList.add("visible")
 }
 
+
+//start
+
+buttonMarcar.addEventListener("click", () => {
+
+    let puntuacion = document.getElementById("puntuacion").value 
+    
+    if (puntuacion >= 0 && puntuacion <=0.2){
+        star1.setAttribute("class", "fa-regular fa-star")
+        star2.setAttribute("class", "fa-regular fa-star")
+        star3.setAttribute("class", "fa-regular fa-star")
+        star4.setAttribute("class", "fa-regular fa-star")
+        star5.setAttribute("class", "fa-regular fa-star")
+    }
+
+    else if (puntuacion >= 0.3 && puntuacion <=0.7){
+        star1.setAttribute("class", "fa-solid fa-star-half-stroke")
+        star2.setAttribute("class", "fa-regular fa-star")
+        star3.setAttribute("class", "fa-regular fa-star")
+        star4.setAttribute("class", "fa-regular fa-star")
+        star5.setAttribute("class", "fa-regular fa-star")
+    }
+
+    else if (puntuacion >= 0.8 && puntuacion <=1.2){
+        star1.setAttribute("class", "fa-solid fa-star")
+        star2.setAttribute("class", "fa-regular fa-star")
+        star3.setAttribute("class", "fa-regular fa-star")
+        star4.setAttribute("class", "fa-regular fa-star")
+        star5.setAttribute("class", "fa-regular fa-star")
+    }
+
+    else if (puntuacion >= 1.3 && puntuacion <=1.7){
+        star1.setAttribute("class", "fa-solid fa-star")
+        star2.setAttribute("class", "fa-solid fa-star-half-stroke")
+        star3.setAttribute("class", "fa-regular fa-star")
+        star4.setAttribute("class", "fa-regular fa-star")
+        star5.setAttribute("class", "fa-regular fa-star")
+    }
+
+    else if (puntuacion >= 1.8 && puntuacion <=2.2){
+        star1.setAttribute("class", "fa-solid fa-star")
+        star2.setAttribute("class", "fa-solid fa-star")
+        star3.setAttribute("class", "fa-regular fa-star")
+        star4.setAttribute("class", "fa-regular fa-star")
+        star5.setAttribute("class", "fa-regular fa-star")
+    }
+
+    else if (puntuacion >= 2.3 && puntuacion <=2.7){
+        star1.setAttribute("class", "fa-solid fa-star")
+        star2.setAttribute("class", "fa-solid fa-star")
+        star3.setAttribute("class", "fa-solid fa-star-half-stroke")
+        star4.setAttribute("class", "fa-regular fa-star")
+        star5.setAttribute("class", "fa-regular fa-star")
+    }
+
+    else if (puntuacion >= 2.8 && puntuacion <=3.2){
+        star1.setAttribute("class", "fa-solid fa-star")
+        star2.setAttribute("class", "fa-solid fa-star")
+        star3.setAttribute("class", "fa-solid fa-star")
+        star4.setAttribute("class", "fa-regular fa-star")
+        star5.setAttribute("class", "fa-regular fa-star")
+    }
+
+    else if (puntuacion >= 3.3 && puntuacion <=3.7){
+        star1.setAttribute("class", "fa-solid fa-star")
+        star2.setAttribute("class", "fa-solid fa-star")
+        star3.setAttribute("class", "fa-solid fa-star")
+        star4.setAttribute("class", "fa-solid fa-star-half-stroke")
+        star5.setAttribute("class", "fa-regular fa-star")
+    }
+
+    else if (puntuacion >= 3.8 && puntuacion <=4.2){
+        star1.setAttribute("class", "fa-solid fa-star")
+        star2.setAttribute("class", "fa-solid fa-star")
+        star3.setAttribute("class", "fa-solid fa-star")
+        star4.setAttribute("class", "fa-solid fa-star")
+        star5.setAttribute("class", "fa-regular fa-star")
+    }
+
+    else if (puntuacion >= 4.3 && puntuacion <=4.7){
+        star1.setAttribute("class", "fa-solid fa-star")
+        star2.setAttribute("class", "fa-solid fa-star")
+        star3.setAttribute("class", "fa-solid fa-star")
+        star4.setAttribute("class", "fa-solid fa-star")
+        star5.setAttribute("class", "fa-solid fa-star-half-stroke")
+    }
+
+    else if (puntuacion >= 4.8 && puntuacion <=5){
+        star1.setAttribute("class", "fa-solid fa-star")
+        star2.setAttribute("class", "fa-solid fa-star")
+        star3.setAttribute("class", "fa-solid fa-star")
+        star4.setAttribute("class", "fa-solid fa-star")
+        star5.setAttribute("class", "fa-solid fa-star")
+    }
+
+})
 
 
 

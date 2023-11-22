@@ -597,17 +597,15 @@ main.visible{
 .us{
     font-size: 1em;
     color: #000;
-    margin-top: 2px;
 }
 .numero38{
     font-size: 2.5em;
     color: #000;
-    margin-top: 2px;
 }
 .numero66{
     font-size: 1em;
     color: #000;
-    margin-top: 2px;
+    padding-top: 20px;
 }
 .sinDeposito{
     font-size: 1em;
@@ -712,7 +710,15 @@ main.visible{
     flex-direction: row;
 }
 
-
+.box-extrellas{
+    flex-direction: row;
+}
+.estrella{
+    color: rgb(255, 136, 0);
+    flex-direction: row;
+    display: inline-block;
+    font-size: .7em;
+}
 
 
 
