@@ -191,7 +191,7 @@ function abrir(){
         star5.setAttribute("class", "fa-solid fa-star")
     }
 
-    //barra de porcentaje 
+  
 
 
 
