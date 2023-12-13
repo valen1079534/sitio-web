@@ -38,11 +38,6 @@ cargar.addEventListener("click", () => {
    caja5.style.width= `${total5}%`
 
     })
-
-
-
-
-
 //estrellas
 /* let star1 = document.getElementById("star1")
 let star2 = document.getElementById("star2")
