@@ -445,7 +445,7 @@ main.visible{
 }
 .prime{
     font-size: .9em;
-    color: rgb(0, 162, 255);
+    color: rgb(0, 128, 128);
     font-weight: 850;
 }
 .fa-check{
@@ -535,7 +535,7 @@ main.visible{
 }
 
 .visitas{
-    color: rgb(20, 120, 300);
+    color: rgb(0, 128, 128);;
     font-size: 0.7em;
     margin-top: 10px;
 }
@@ -558,21 +558,22 @@ main.visible{
     cursor: pointer;
 }
 .estrella{
-    color: rgb(255, 81, 0);
+    color: rgb(255, 174, 0);
     flex-direction: row;
     display: inline-block;
     font-size: .6em;
     cursor: pointer;
 }
 .q{
-    color: rgb(0, 110, 255);
+    color: rgb(0, 128, 128);
     font-size: .6em;
     margin-left: 10px;
     margin-right: 10px
 }
 .calificacion{
-    color: rgb(0, 110, 255);
+    color: rgb(0, 128, 128);
     font-size: .6em;
+    margin-left: 20px;
 }
 .calificacion:hover{
     color: rgb(255, 94, 0);
@@ -580,7 +581,7 @@ main.visible{
     cursor: pointer;
 }
 .calificacion-1{
-    color: rgb(0, 110, 255);
+    color: rgb(0, 128, 128);
     font-size: .6em;
     cursor: pointer;
 }
@@ -640,7 +641,7 @@ main.visible{
 }
 .devolucionGratis{
     font-size: 1em;
-    color: rgb(0, 110, 255);
+    color: rgb(0, 128, 128);
     font-size: 1em;
 }
 .devolucionGratis:hover{
@@ -654,7 +655,7 @@ main.visible{
 }
 .detallesReloj{
     font-size: 1em;
-    color: rgb(0, 110, 255);
+    color: rgb(0, 128, 128);
 }
 .detallesReloj:hover{
     color: rgb(255, 94, 0);
@@ -675,7 +676,7 @@ main.visible{
 }
 .EnviarColombia{
     font-size: 1em;
-    color: rgb(0, 110, 255);
+    color: rgb(0, 128, 128);
     padding: 5px;
     padding: 10px;
 }
@@ -728,6 +729,63 @@ main.visible{
 }
 
 
+/* input */
+.cajas{
+    width: 170px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    background-color: rgb(238, 238, 238);
+}
+.cajas > div{
+    background-color: rgb(255, 174, 0);
+    height: 20px;
+    transition: 0.3s all linear;
+    width: 0;
+    border-radius: 5px;
+}
 
+.caja-box{
+    display: none;
+}
+.result{
+    font-size: .6em;
+    color: #7a7a7a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.main-caja{
+    display: flex;
+    flex-direction: row;
+}
+.main-estrellas{
+    font-size: .6em;
+    margin-right: 15px;
+    color: rgb(0, 128, 128);
+    font-weight: 300;
+    margin-left: 20px;
+}
 
+.main-star{
+    color: rgb(255, 174, 0);
+    flex-direction: row;
+    display: inline-block;
+    font-size: .6em;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.main-num{
+    font-weight: 800;
+    font-size: .7em;
+    display: inline-block;
+    color: #000;
+}
+
+.box-contenido{
+    background-color: #f7f7f7;
+    width: 350px;
+}
 
